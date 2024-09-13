@@ -1,5 +1,5 @@
 # Sử dụng image Tomcat 9.1 làm base image
-FROM tomcat:9.1
+FROM tomcat:10.1
 
 # Xóa các ứng dụng có sẵn trong thư mục webapps
 RUN rm -rf /usr/local/tomcat/webapps/*
